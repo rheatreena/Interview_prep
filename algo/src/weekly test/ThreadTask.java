@@ -3,7 +3,7 @@
  */
 public class ThreadTask implements Runnable{
 
-    private ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>();
+    private ThreadLocal<Integer> threadLocal = new ThreadLocal<>();
 
     @Override
     public void run() {

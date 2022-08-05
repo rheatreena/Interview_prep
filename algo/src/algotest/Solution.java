@@ -10,7 +10,7 @@ public class Solution {
         System.out.println(solution.isPossible(N,arr));
     }
 
-    static int isPossible(int N, int arr[]){
+     static int isPossible(int N, int arr[]){
         // code here
         int reminder  =0;
         for(int i =0; i<N; i++){
